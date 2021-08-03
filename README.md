@@ -309,7 +309,7 @@ g.set(ylim = (0, 6))
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x1d7e4208dd8>
+    <seaborn.axisgrid.FacetGrid at 0x17a7b4d7198>
 
 
 
@@ -362,7 +362,7 @@ g.set_titles('Bild {col_name}')
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x1d7dd5e9be0>
+    <seaborn.axisgrid.FacetGrid at 0x17a746fbda0>
 
 
 
@@ -376,18 +376,19 @@ Auffallend ist hier, dass alle Graphen bei 20% Kompression eine Art Break-Point 
 
 ## 4. Interpretation
 ### Analyse der Ausreißer
-Wie bereits in den Ergebnissen aufgefallen ist, stechen die Bilder 5 und 6 besonders aus der Masse hervor, indem sie sich durch einen äußerst unklaren Verlauf bei der Bewertung der Bildqualität und schneller sichtbare Veränderungen durch die Kompression auszeichnen. 
+Wie bereits in den Ergebnissen aufgefallen ist, stechen die Bilder 5 und 6 besonders hervor, indem sie sich durch einen äußerst unklaren Verlauf bei der Bewertung der Bildqualität und schneller sichtbare Veränderungen durch die Kompression auszeichnen. 
 Wenn man nun die Bilder zum Beispiel mit den Bildern 2 und 10 vergleicht, welche ja durch einen besonders klaren Verlauf auffallen, lassen sich eventuelle Ursachen schnell erkennen. 
 
 Der Effekt des unklaren Verlauf lässt sich damit erklären, dass die Testprobanden es deutlich schwerer fanden, die Bildqualität der Bilder 5 und 6 auf den unterschiedlichen Kompressionsleveln zu vergleichen. Die Ursache hiervon könnte sein, dass die Bilder 5 und 6 keinen wirklichen Fokus im Bild haben. Bild 2 ist ein Porträt von einem Frauengesicht, Bild 10 eine Nahaufnahme von zwei Papageien. Die Gemeinsamkeit beider Bilder liegt hierbei darin, dass beide Bilder einen klaren Fixpunkt haben, an welchem eventuelle Auswirkungen der Kompression leicht gesehen und im Gedächtnis gespeichert werden können. Bild 5 hat zwar diesen Fixpunkt ebenfalls mit dem Boot, jedoch ist dieser viel komplexer als zum Beispiel das Frauengesicht, wodurch mögliche Unterschiede eventuell nicht beachtet werden, Bild 6 hat diesen Fixpunkt aber gar nicht.
-Aus diesen Gründen und dem Grund, dass die Testpersonen ja nicht die Kompressionsstufen direkt miteinander verglichen haben, sondern immer anhand des Originals, waren die genannten Bilder 5 und 6 deutlich schwerer zu bewerten, was sich durch den uneindeutigen Verlauf der Graphen kennzeichnet.
+Aus diesen Gründen und dem Grund, dass die Testpersonen die Kompressionsstufen nicht direkt miteinander verglichen haben, sondern immer anhand des Originals, waren die genannten Bilder 5 und 6 deutlich schwerer zu bewerten, was sich durch den uneindeutigen Verlauf der Graphen kennzeichnet.
 
-Der Effekt, dass die Veränderungen bei den Bildern 5 und 6 schneller sichtbar waren, als bei dem anderen Bildern lässt sich damit erklären, dass diese Bilder einen deutlich höheren Detailgrad haben, als zum Beispiel die Bilder 2 und 10. Gerade wenn man sich Bild 6 ansieht, ist dies schnell erkennbar, da die Bäume im Hintergrund bereits bei niedrigen Kompressionsstufen anfangen, verpixelt auszusehen. Auch Bild 5 weißt gerade an der Brücke oder direkt am Boot ein hohen Detailgrad auf.
+Der Effekt, dass die Veränderungen bei den Bildern 5 und 6 schneller sichtbar waren, als bei dem anderen Bildern lässt sich damit erklären, dass diese Bilder einen deutlich höheren Detailgrad haben, als zum Beispiel die Bilder 2 und 10. Gerade wenn man sich Bild 6 ansieht, ist dies schnell erkennbar, da die Bäume im Hintergrund bereits bei niedrigen Kompressionsstufen anfangen, verpixelt auszusehen. Auch Bild 5 weißt gerade an der Brücke oder direkt am Boot einen hohen Detailgrad auf.
 Aus diesem Grund kommt es schon bei geringen Kompressionsstufen zu deutlichen sichtbaren Effekten, wodurch die Bewertung für diese Bilder insgesamt schlechter ausfällt.
 
 ### Analyse der Hypothesen
+Die erste Hypothese, welcher nach Bildkompression und Wahrnehmung der Qualität in keinem linearen Zusammenhang zu einander stehen, konnte durch den Versuch bestätigt werden. Die Verläufe der Graphen in der Zusammenfassenden Darstellung aller Testpersonen zu den einzelnen Bilder zeigen eindeutig keinen linearen Verlauf. Sie zeichnen sich durch einen progressiven Verlauf mit negativer Steigung, also einer zuerst geringen negativen Steigung, welche dann im Verlauf immer stärker zunimmt, aus. Bei den Bilder 5,6 und 7 nähert sich der Graph am ehesten einem linearen Verlauf an. Dies könnte, wie zuvor unter dem Punkt *Analyse der Ausreißer* beschrieben, an dem fehlenden Fokus der Bilder liegen. Bild 7 kann hier ebenfalls dazugezählt werden. Die besagten Bilder haben durch den fehlenden Fokus über den ganzen Bildbereich einen höheren Detailgrad. Eine mögliche zukünftige Forschungsfrage wäre hier, ob ein höherer Detailgrad, bzw. ein fehlender Fokus, zu einem linearerem Zusammenhang zwischen Bildkompression und Wahrnehmung der Qualität führt.
 
+Die zweite Hypothese entstand aus der Überlegung, dass das menschliche visuelle System einen gewissen Grad an Unschärfe bzw. Kompression, einem gestochen scharfem bzw. unkomprimierten Bild vorzieht. Die Hypothese, es gäbe ein optimales allgemeingültiges Level an Kompression bezüglich der wahrgenommen Bildqualität, welches sich von 0% unterscheidet, konnte nicht bestätigt werden. Die höchsten Werte für die wahrgenommene Bildqualität liegen in der zusammenfassenden Darstellung ausnahmslos bei 0% Kompressionslevel. Folglich werden die Originalbilder bezüglich der wahrgenommenen Bildqualität ohne Ausnahme jeder anderen Stufe von Kompression vorgezogen.
 
-```python
-
-```
+### Fazit, Kritik & Ausblick
+Wir haben durch unseren Versuch eine der beiden Hypothese bestätigen können. Der Versuch verlief im großen ganzen nach Plan und wir hatten keine größeren Probleme. Im Verlauf haben sich aber zwei Kritikpunkte zu unserem Versuchsaufbau herauskristalisiert. Da die Versuchspersonen das komprimierte Bild immer nur mit dem Original vergleichen konnten war es eventuell schwierig, Unterschiede zwischen den einzelnen Kompressionsstufen auszudrücken. So kann es trotz gleicher wahrgenommener Bildqualität zu unterschiedlichen Bewertungen kommen. Außerdem kann die Skala von der Versuchspersonen unter Umständen unterschiedlich interpretiert werden. Um zu fundierteren Ergebnissen zu gelangen, müsste man außerdem die Anzahl der Versuchspersonen stark erhöhen. Desweiteren könnte man mehr Stimuli nutzen, sowie Wiederholungen des Versuches durchführen, um eventuelle äußere Einflüsse zu minimieren.
